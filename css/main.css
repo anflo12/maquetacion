@@ -2,44 +2,14 @@ body {
   position: fixed;
   background-image: url('/assets/fondo.jpg');
 background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   margin: 0;
   padding: 0;
-}
-
-.content{
-    display: grid;
-    grid-template-columns: 1fr 4fr 1fr;
-    height: 100%
-}
-.content div {
-    display: grid;
-    grid-column: 2;
-    justify-items: center;
-    height: 350px;
-    margin-top: 50px
-}
-
-.content div h1 {
-    color: white;
-    font-size: 35px;
-}
-
-.content div button {
-    height: 7vh;
-    width: 10vw;
-    background-color: #5e2129;
-    color: white;
-    border-radius: 5px;
-    border: none;
-}
-
-.content div button:hover{
-    background-color: #a5414e ;
-    cursor: pointer;
 }
 
 .redes {
@@ -64,6 +34,10 @@ background-size: cover;
 .redes a span {
     color:white;
    width: 30px
+}
+.redes a span:hover {
+  color:rgb(151, 148, 148);
+ 
 }
  .nav-links{
      display: flex;
@@ -97,5 +71,38 @@ header .header-icons-container {
 .img-logo{
     width: 10rem;
     height: 5rem;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    height: 100%
+}
+.content div {
+    display: grid;
+    grid-column: 2;
+    justify-items: center;
+    height: 350px;
+    margin-top: 50px
+}
+
+.content div h1 {
+    color: white;
+    font-size: 35px;
+    margin-top: 50px;
+}
+
+.content div button {
+    height: 7vh;
+    width: 10vw;
+    background-color: #5e2129;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.content div button:hover{
+    background-color: #a5414e ;
+    cursor: pointer;
 }
 
